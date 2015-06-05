@@ -120,40 +120,7 @@
                                 </featureArtifactDef>
 
                                 <featureArtifactDef>
-                                    org.wso2.appserver:org.wso2.appserver.application-hosting.nested.category.feature:${as.version.600}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.appserver:org.wso2.appserver.application-mgt.nested.category.feature:${as.version.600}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.appserver:org.wso2.appserver.javaee-runtime.nested.category.feature:${as.version.600}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.appserver:org.wso2.appserver.miscellaneous.nested.category.feature:${as.version.600}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.appserver:org.wso2.appserver.monitoring.nested.category.feature:${as.version.600}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.appserver:org.wso2.appserver.multi-tenancy.nested.category.feature:${as.version.600}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.appserver:org.wso2.appserver.registry-repository.nested.category.feature:${as.version.600}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.appserver:org.wso2.appserver.single-sign-on.nested.category.feature:${as.version.600}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
                                     org.wso2.appserver:org.wso2.appserver.styles.feature:${as.version.600}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.appserver:org.wso2.appserver.styling.nested.category.feature:${as.version.600}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.appserver:org.wso2.appserver.tooling.nested.category.feature:${as.version.600}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.appserver:org.wso2.appserver.user-mgt.nested.category.feature:${as.version.600}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.appserver:org.wso2.appserver.utils.feature:${as.version.600}
@@ -311,40 +278,21 @@
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.ui.menu.feature:${carbon.registry.version.441}
                                 </featureArtifactDef>
 
-
                                 <!-- Category Features(Nested) -->
                                 <featureArtifactDef>
-                                    org.wso2.appserver:org.wso2.appserver.application-hosting.nested.category.feature:${as.version.600}
+                                    org.wso2.appserver:org.wso2.appserver.application-runtime-environment.nested.category.feature:${as.version.600}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.appserver:org.wso2.appserver.application-mgt.nested.category.feature:${as.version.600}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.appserver:org.wso2.appserver.javaee-runtime.nested.category.feature:${as.version.600}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.appserver:org.wso2.appserver.miscellaneous.nested.category.feature:${as.version.600}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.appserver:org.wso2.appserver.monitoring.nested.category.feature:${as.version.600}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.appserver:org.wso2.appserver.multi-tenancy.nested.category.feature:${as.version.600}
+                                    org.wso2.appserver:org.wso2.appserver.javaee-6-web-profile.nested.category.feature:${as.version.600}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.appserver:org.wso2.appserver.registry-repository.nested.category.feature:${as.version.600}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.appserver:org.wso2.appserver.single-sign-on.nested.category.feature:${as.version.600}
+                                    org.wso2.appserver:org.wso2.appserver.tenant-management.nested.category.feature:${as.version.600}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.appserver:org.wso2.appserver.styling.nested.category.feature:${as.version.600}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.appserver:org.wso2.appserver.tooling.nested.category.feature:${as.version.600}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.appserver:org.wso2.appserver.user-mgt.nested.category.feature:${as.version.600}
+                                    org.wso2.appserver:org.wso2.appserver.webapp-hosting.nested.category.feature:${as.version.600}
                                 </featureArtifactDef>
 
                             </featureArtifacts>
@@ -358,27 +306,11 @@
                                     </description>
                                     <features>
                                         <catFeature>
-                                            <id>org.wso2.appserver.application-hosting.nested.category</id>
+                                            <id>org.wso2.appserver.application-runtime-environment.nested.category</id>
                                             <version>${as.version.600}</version>
                                         </catFeature>
                                         <catFeature>
-                                            <id>org.wso2.appserver.application-mgt.nested.category</id>
-                                            <version>${as.version.600}</version>
-                                        </catFeature>
-                                        <catFeature>
-                                            <id>org.wso2.appserver.javaee-runtime.nested.category</id>
-                                            <version>${as.version.600}</version>
-                                        </catFeature>
-                                        <catFeature>
-                                            <id>org.wso2.appserver.miscellaneous.nested.category</id>
-                                            <version>${as.version.600}</version>
-                                        </catFeature>
-                                        <catFeature>
-                                            <id>org.wso2.appserver.monitoring.nested.category</id>
-                                            <version>${as.version.600}</version>
-                                        </catFeature>
-                                        <catFeature>
-                                            <id>org.wso2.appserver.multi-tenancy.nested.category</id>
+                                            <id>org.wso2.appserver.javaee-6-web-profile.nested.category</id>
                                             <version>${as.version.600}</version>
                                         </catFeature>
                                         <catFeature>
@@ -386,19 +318,11 @@
                                             <version>${as.version.600}</version>
                                         </catFeature>
                                         <catFeature>
-                                            <id>org.wso2.appserver.single-sign-on.nested.category</id>
+                                            <id>org.wso2.appserver.tenant-management.nested.category</id>
                                             <version>${as.version.600}</version>
                                         </catFeature>
                                         <catFeature>
-                                            <id>org.wso2.appserver.styling.nested.category</id>
-                                            <version>${as.version.600}</version>
-                                        </catFeature>
-                                        <catFeature>
-                                            <id>org.wso2.appserver.tooling.nested.category</id>
-                                            <version>${as.version.600}</version>
-                                        </catFeature>
-                                        <catFeature>
-                                            <id>org.wso2.appserver.user-mgt.nested.category</id>
+                                            <id>org.wso2.appserver.webapp-hosting.nested.category</id>
                                             <version>${as.version.600}</version>
                                         </catFeature>
                                     </features>
