@@ -301,7 +301,7 @@
                                 <!--Start of AS feature categories-->
                                 <category>
                                     <id>org.wso2.appserver.category</id>
-                                    <label>Application Server</label>
+                                    <label>Application Server ${as.version.600}</label>
                                     <description>This category contains features required for WSO2 Application Server
                                     </description>
                                     <features>
