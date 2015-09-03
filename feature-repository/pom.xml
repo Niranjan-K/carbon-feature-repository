@@ -593,7 +593,7 @@
 
                                 <!--Application Runtime Environment categories -->
                                 <category>
-                                    <id>org.wso2.carbon.deployment.webapp-runtime-environment.feature.category</id>
+                                    <id>org.wso2.carbon.webapp-runtime-environment.feature.category</id>
                                     <label>Webapp Runtime Environment</label>
                                     <description>This category contains Webapp Runtime Environment features</description>
                                     <features>
@@ -605,7 +605,7 @@
                                 </category>
 
                                 <category>
-                                    <id>org.wso2.carbon.deployment.javaee-6-web-profile.feature.category</id>
+                                    <id>org.wso2.carbon.javaee-6-web-profile.feature.category</id>
                                     <label>JaveEE 6 Web Profile</label>
                                     <description>This category contains JaveEE 6 Web Profile features</description>
                                     <features>
