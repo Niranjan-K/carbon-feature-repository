@@ -578,13 +578,13 @@
 
                                 <!--Categories -->
                                 <featureArtifactDef>
-                                    org.wso2.carbon.deployment:org.wso2.carbon.deployment.application-runtime-environment.category.feature:4.5.2-SNAPSHOT
+                                    org.wso2.carbon.deployment:org.wso2.carbon.webapp-runtime-environment.category.feature:4.5.2-SNAPSHOT
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.deployment:org.wso2.carbon.deployment.javaee-6-web-profile.category.feature:4.5.2-SNAPSHOT
+                                    org.wso2.carbon.deployment:org.wso2.carbon.javaee-6-web-profile.category.feature:4.5.2-SNAPSHOT
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.deployment:org.wso2.carbon.deployment.webapp-hosting.category.feature:4.5.2-SNAPSHOT
+                                    org.wso2.carbon.deployment:org.wso2.carbon.webapp-hosting.category.feature:4.5.2-SNAPSHOT
                                 </featureArtifactDef>
 
                             </featureArtifacts>
@@ -593,36 +593,36 @@
 
                                 <!--Application Runtime Environment categories -->
                                 <category>
-                                    <id>org.wso2.carbon.deployment.application-runtime-environment.category</id>
-                                    <label>Application Runtime Environment</label>
-                                    <description>This category contains Application Runtime Environment features</description>
+                                    <id>org.wso2.carbon.deployment.webapp-runtime-environment.feature.category</id>
+                                    <label>Webapp Runtime Environment</label>
+                                    <description>This category contains Webapp Runtime Environment features</description>
                                     <features>
                                         <catFeature>
-                                            <id>org.wso2.carbon.deployment.application-runtime-environment.category.feature.group</id>
+                                            <id>org.wso2.carbon.webapp-runtime-environment.category</id>
                                             <version>4.5.2-SNAPSHOT</version>
                                         </catFeature>
                                     </features>
                                 </category>
 
                                 <category>
-                                    <id>org.wso2.carbon.deployment.javaee-6-web-profile.category</id>
+                                    <id>org.wso2.carbon.deployment.javaee-6-web-profile.feature.category</id>
                                     <label>JaveEE 6 Web Profile</label>
                                     <description>This category contains JaveEE 6 Web Profile features</description>
                                     <features>
                                         <catFeature>
-                                            <id>org.wso2.carbon.deployment.javaee-6-web-profile.category.feature.group</id>
+                                            <id>org.wso2.carbon.javaee-6-web-profile.category</id>
                                             <version>4.5.2-SNAPSHOT</version>
                                         </catFeature>
                                     </features>
                                 </category>
 
                                 <category>
-                                    <id>org.wso2.carbon.deployment.webapp-hosting.category</id>
+                                    <id>org.wso2.carbon.webapp-hosting.feature.category</id>
                                     <label>Webapp Hosting</label>
                                     <description>This category contains Webapp Hosting features</description>
                                     <features>
                                         <catFeature>
-                                            <id>org.wso2.carbon.deployment.webapp-hosting.category.feature.group</id>
+                                            <id>org.wso2.carbon.webapp-hosting.category</id>
                                             <version>4.5.2-SNAPSHOT</version>
                                         </catFeature>
                                     </features>
