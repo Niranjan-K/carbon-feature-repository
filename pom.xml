@@ -177,11 +177,18 @@
                                     org.wso2.carbon.deployment:org.wso2.carbon.service.mgt.feature:${carbon.deployment.version.4.5.2}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
+                                    org.wso2.carbon.deployment:org.wso2.carbon.servicehosting.feature:${carbon.deployment.version.4.5.2}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.deployment:org.wso2.carbon.servicehosting.server.feature:${carbon.deployment.version.4.5.2}
+                                </featureArtifactDef>
+                                <featureArtifactDef>
                                     org.wso2.carbon.deployment:org.wso2.carbon.springservices.feature:${carbon.deployment.version.4.5.2}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.deployment:org.wso2.carbon.webapp.mgt.feature:${carbon.deployment.version.4.5.2}
                                 </featureArtifactDef>
+
 
 
                                 <featureArtifactDef>
@@ -297,6 +304,7 @@
                                 <featureArtifactDef>
                                     org.wso2.ciphertool:org.wso2.ciphertool.feature:${cipher.tool.version.1.0.0.2v3}
                                 </featureArtifactDef>
+
 
                                 <!--Categories -->
                                 <featureArtifactDef>
