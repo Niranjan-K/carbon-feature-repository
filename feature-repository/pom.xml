@@ -399,13 +399,14 @@
                                 <featureArtifactDef>
                                     org.wso2.carbon.deployment:org.wso2.carbon.application.mgt.webapp.feature:${carbon.deployment.version.441}
                                 </featureArtifactDef>
+<!--
                                 <featureArtifactDef>
                                     org.wso2.carbon.deployment:org.wso2.carbon.webapp.mgt.feature:4.4.2
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon:org.wso2.carbon.core.feature:4.4.1
                                 </featureArtifactDef>
-
+-->
                                 <featureArtifactDef>
                                     org.wso2.carbon.deployment:org.wso2.carbon.as.runtimes.cxf.feature:${carbon.deployment.version.440}
                                 </featureArtifactDef>
@@ -558,21 +559,32 @@
                                     org.wso2.carbon.registry:org.wso2.carbon.registry.ui.menu.feature:${carbon.registry.version.441}
                                 </featureArtifactDef>
 
-                                <!-- Nested Categories -->
+                                <!--&lt;!&ndash; Nested Categories &ndash;&gt;-->
+                                <!--<featureArtifactDef>-->
+                                    <!--org.wso2.carbon.feature.repository:org.wso2.carbon.feature.repository.application-runtime-environment.nested.category.feature:${application.runtime.environment.nested.category.version.440}-->
+                                <!--</featureArtifactDef>-->
+                                <!--<featureArtifactDef>-->
+                                    <!--org.wso2.carbon.feature.repository:org.wso2.carbon.feature.repository.javaee-6-web-profile.nested.category.feature:${javaee6.web.profile.nested.category.version.440}-->
+                                <!--</featureArtifactDef>-->
+                                <!--<featureArtifactDef>-->
+                                    <!--org.wso2.carbon.feature.repository:org.wso2.carbon.feature.repository.registry-repository.nested.category.feature:${registry.repository.nested.category.version.440}-->
+                                <!--</featureArtifactDef>-->
+                                <!--<featureArtifactDef>-->
+                                    <!--org.wso2.carbon.feature.repository:org.wso2.carbon.feature.repository.tenant-management.nested.category.feature:${tenant.management.nested.category.version.440}-->
+                                <!--</featureArtifactDef>-->
+                                <!--<featureArtifactDef>-->
+                                    <!--org.wso2.carbon.feature.repository:org.wso2.carbon.feature.repository.webapp-hosting.nested.category.feature:${webapp.hosting.nested.category.version.440}-->
+                                <!--</featureArtifactDef>-->
+
+                                <!--Categories -->
                                 <featureArtifactDef>
-                                    org.wso2.carbon.feature.repository:org.wso2.carbon.feature.repository.application-runtime-environment.nested.category.feature:${application.runtime.environment.nested.category.version.440}
+                                    org.wso2.carbon.deployment:org.wso2.carbon.deployment.application-runtime-environment.category.feature:4.5.2-SNAPSHOT
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.feature.repository:org.wso2.carbon.feature.repository.javaee-6-web-profile.nested.category.feature:${javaee6.web.profile.nested.category.version.440}
+                                    org.wso2.carbon.deployment:org.wso2.carbon.deployment.javaee-6-web-profile.category.feature:4.5.2-SNAPSHOT
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.feature.repository:org.wso2.carbon.feature.repository.registry-repository.nested.category.feature:${registry.repository.nested.category.version.440}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.feature.repository:org.wso2.carbon.feature.repository.tenant-management.nested.category.feature:${tenant.management.nested.category.version.440}
-                                </featureArtifactDef>
-                                <featureArtifactDef>
-                                    org.wso2.carbon.feature.repository:org.wso2.carbon.feature.repository.webapp-hosting.nested.category.feature:${webapp.hosting.nested.category.version.440}
+                                    org.wso2.carbon.deployment:org.wso2.carbon.deployment.webapp-hosting.category.feature:4.5.2-SNAPSHOT
                                 </featureArtifactDef>
 
                             </featureArtifacts>
@@ -581,68 +593,92 @@
 
                                 <!--Application Runtime Environment categories -->
                                 <category>
-                                    <id>org.wso2.carbon.feature.repository.application-runtime-environment.category</id>
+                                    <id>org.wso2.carbon.deployment.application-runtime-environment.category</id>
                                     <label>Application Runtime Environment</label>
                                     <description>This category contains Application Runtime Environment features</description>
                                     <features>
                                         <catFeature>
-                                            <id>org.wso2.carbon.feature.repository.application-runtime-environment.nested.category.feature.group</id>
-                                            <version>${application.runtime.environment.nested.category.version.440}</version>
+                                            <id>org.wso2.carbon.deployment.application-runtime-environment.category.feature.group</id>
+                                            <version>4.5.2-SNAPSHOT</version>
                                         </catFeature>
                                     </features>
                                 </category>
 
-                                <!-- JavaEE 6 Web Profile categories -->
                                 <category>
-                                    <id>org.wso2.carbon.feature.repository.javaee-6-web-profile.nested.category</id>
+                                    <id>org.wso2.carbon.deployment.javaee-6-web-profile.category</id>
                                     <label>JaveEE 6 Web Profile</label>
                                     <description>This category contains JaveEE 6 Web Profile features</description>
                                     <features>
                                         <catFeature>
-                                            <id>org.wso2.carbon.feature.repository.javaee-6-web-profile.nested.category.feature.group</id>
-                                            <version>${javaee6.web.profile.nested.category.version.440}</version>
+                                            <id>org.wso2.carbon.deployment.javaee-6-web-profile.category.feature.group</id>
+                                            <version>4.5.2-SNAPSHOT</version>
                                         </catFeature>
                                     </features>
                                 </category>
 
-                                <!-- Registry / Repository categories -->
                                 <category>
-                                    <id>org.wso2.carbon.feature.repository.registry-repository.nested.category</id>
-                                    <label>Registry / Repository</label>
-                                    <description>This category contains Registry / Repository features</description>
-                                    <features>
-                                        <catFeature>
-                                            <id>org.wso2.carbon.feature.repository.registry-repository.nested.category.feature.group</id>
-                                            <version>${registry.repository.nested.category.version.440}</version>
-                                        </catFeature>
-                                    </features>
-                                </category>
-
-                                <!-- Tenant Management categories -->
-                                <category>
-                                    <id>org.wso2.carbon.feature.repository.tenant-management.nested.category</id>
-                                    <label>Tenant Management</label>
-                                    <description>This category contains Tenant Management features</description>
-                                    <features>
-                                        <catFeature>
-                                            <id>org.wso2.carbon.feature.repository.tenant-management.nested.category.feature.group</id>
-                                            <version>${tenant.management.nested.category.version.440}</version>
-                                        </catFeature>
-                                    </features>
-                                </category>
-
-                                <!-- Webapp Hosting categories -->
-                                <category>
-                                    <id>org.wso2.carbon.feature.repository.webapp-hosting.nested.category</id>
+                                    <id>org.wso2.carbon.deployment.webapp-hosting.category</id>
                                     <label>Webapp Hosting</label>
-                                    <description>This category contains Application Runtime Environment</description>
+                                    <description>This category contains Webapp Hosting features</description>
                                     <features>
                                         <catFeature>
-                                            <id>org.wso2.carbon.feature.repository.webapp-hosting.nested.category.feature.group</id>
-                                            <version>${webapp.hosting.nested.category.version.440}</version>
+                                            <id>org.wso2.carbon.deployment.webapp-hosting.category.feature.group</id>
+                                            <version>4.5.2-SNAPSHOT</version>
                                         </catFeature>
                                     </features>
                                 </category>
+
+                                <!--&lt;!&ndash; JavaEE 6 Web Profile categories &ndash;&gt;-->
+                                <!--<category>-->
+                                    <!--<id>org.wso2.carbon.feature.repository.javaee-6-web-profile.nested.category</id>-->
+                                    <!--<label>JaveEE 6 Web Profile</label>-->
+                                    <!--<description>This category contains JaveEE 6 Web Profile features</description>-->
+                                    <!--<features>-->
+                                        <!--<catFeature>-->
+                                            <!--<id>org.wso2.carbon.feature.repository.javaee-6-web-profile.nested.category.feature.group</id>-->
+                                            <!--<version>${javaee6.web.profile.nested.category.version.440}</version>-->
+                                        <!--</catFeature>-->
+                                    <!--</features>-->
+                                <!--</category>-->
+
+                                <!--&lt;!&ndash; Registry / Repository categories &ndash;&gt;-->
+                                <!--<category>-->
+                                    <!--<id>org.wso2.carbon.feature.repository.registry-repository.nested.category</id>-->
+                                    <!--<label>Registry / Repository</label>-->
+                                    <!--<description>This category contains Registry / Repository features</description>-->
+                                    <!--<features>-->
+                                        <!--<catFeature>-->
+                                            <!--<id>org.wso2.carbon.feature.repository.registry-repository.nested.category.feature.group</id>-->
+                                            <!--<version>${registry.repository.nested.category.version.440}</version>-->
+                                        <!--</catFeature>-->
+                                    <!--</features>-->
+                                <!--</category>-->
+
+                                <!--&lt;!&ndash; Tenant Management categories &ndash;&gt;-->
+                                <!--<category>-->
+                                    <!--<id>org.wso2.carbon.feature.repository.tenant-management.nested.category</id>-->
+                                    <!--<label>Tenant Management</label>-->
+                                    <!--<description>This category contains Tenant Management features</description>-->
+                                    <!--<features>-->
+                                        <!--<catFeature>-->
+                                            <!--<id>org.wso2.carbon.feature.repository.tenant-management.nested.category.feature.group</id>-->
+                                            <!--<version>${tenant.management.nested.category.version.440}</version>-->
+                                        <!--</catFeature>-->
+                                    <!--</features>-->
+                                <!--</category>-->
+
+                                <!--&lt;!&ndash; Webapp Hosting categories &ndash;&gt;-->
+                                <!--<category>-->
+                                    <!--<id>org.wso2.carbon.feature.repository.webapp-hosting.nested.category</id>-->
+                                    <!--<label>Webapp Hosting</label>-->
+                                    <!--<description>This category contains Application Runtime Environment</description>-->
+                                    <!--<features>-->
+                                        <!--<catFeature>-->
+                                            <!--<id>org.wso2.carbon.feature.repository.webapp-hosting.nested.category.feature.group</id>-->
+                                            <!--<version>${webapp.hosting.nested.category.version.440}</version>-->
+                                        <!--</catFeature>-->
+                                    <!--</features>-->
+                                <!--</category>-->
 
                             </categories>
                         </configuration>

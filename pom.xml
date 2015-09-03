@@ -47,7 +47,7 @@
     </pluginRepositories>
 
     <modules>
-        <module>nested-categories</module>
+        <!--<module>nested-categories</module>-->
         <module>feature-repository</module>
     </modules>
 
@@ -58,17 +58,16 @@
         <carbon.kernel.version.440>4.4.0</carbon.kernel.version.440>
 
         <carbon.platform.version.440>4.4.0</carbon.platform.version.440>
-        <carbon.deployment.version.440>4.4.0</carbon.deployment.version.440>
 
         <carbon.deployment.version.440>4.4.0</carbon.deployment.version.440>
-        <carbon.deployment.version.441>4.4.1</carbon.deployment.version.441>
+        <carbon.deployment.version.441>4.5.2-SNAPSHOT</carbon.deployment.version.441>
 
         <carbon.identity.version.450>4.5.0</carbon.identity.version.450>
 
         <carbon.commons.version.440>4.4.0</carbon.commons.version.440>
         <carbon.commons.version.441>4.4.1</carbon.commons.version.441>
         <carbon.commons.version.442>4.4.2</carbon.commons.version.442>
-        <carbon.commons.version.443>4.4.3</carbon.commons.version.443>
+        <carbon.commons.version.443>4.4.5</carbon.commons.version.443>
 
         <carbon.multitenancy.version.440>4.4.0</carbon.multitenancy.version.440>
         <carbon.multitenancy.version.441>4.4.1</carbon.multitenancy.version.441>
