@@ -45,9 +45,9 @@
     </pluginRepositories>
 
     <scm>
-        <url>https://github.com/wso2/carbon-feature-repository.git</url>
-        <developerConnection>scm:git:https://github.com/wso2/carbon-feature-repository.git</developerConnection>
-        <connection>scm:git:https://github.com/wso2/carbon-feature-repository.git</connection>
+        <url>https://github.com/Niranjan-K/carbon-feature-repository.git</url>
+        <developerConnection>scm:git:https://github.com/Niranjan-K/carbon-feature-repository.git</developerConnection>
+        <connection>scm:git:https://github.com/Niranjan-K/carbon-feature-repository.git</connection>
         <tag>HEAD</tag>
     </scm>
 
